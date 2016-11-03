@@ -1,0 +1,44 @@
+<aiml>
+<!-- Saudações --> 
+<category>
+    <pattern>OLA</pattern>
+    <template>
+        <srai>OLA PADRAO</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>COMO VAI VOCÊ</pattern>
+    <template>
+        <srai>COMO VAI PADRAO</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>COMO VAI VOCE</pattern>
+    <template>
+        <srai>COMO VAI PADRAO</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>COMO VAI PADRAO</pattern>
+    <template>
+    <random>
+        <li>Eu vou indo bem.</li>
+        <li>To legal :)</li>
+        <li>Não sei, não tenho emoções :P</li>
+    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>OLA PADRAO</pattern>
+    <template>
+        <random>
+            <li>Olá, tudo bem com você?</li>
+            <li>Olá</li>
+        </random>
+    </template>
+</category>
+</aiml>
